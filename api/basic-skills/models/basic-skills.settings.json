@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "basic_skills",
+  "info": {
+    "name": "BasicSkills",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.list",
+      "required": true
+    }
+  }
+}

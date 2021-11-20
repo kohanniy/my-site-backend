@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_items_links",
+  "info": {
+    "name": "Links",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

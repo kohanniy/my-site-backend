@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_lists",
+  "info": {
+    "name": "List",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.links",
+      "required": true
+    }
+  }
+}

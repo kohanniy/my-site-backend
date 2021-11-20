@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/basic-skills",
+      "handler": "basic-skills.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/basic-skills",
+      "handler": "basic-skills.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/basic-skills",
+      "handler": "basic-skills.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

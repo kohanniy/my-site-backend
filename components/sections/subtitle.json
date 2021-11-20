@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_subtitles",
+  "info": {
+    "name": "Subtitle",
+    "icon": "subscript",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

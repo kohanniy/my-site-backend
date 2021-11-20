@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_mes",
+  "info": {
+    "name": "AboutMe"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
