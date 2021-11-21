@@ -2,15 +2,14 @@ module.exports = {
   apps: [
     {
       name: "app",
-      script: "npm",
-      args: "start",
+      script: "./server.js",
       instances: "max",
       exec_mode: "cluster",
+      env: {
+        NODE_ENV: "development",
+      },
       env_production: {
         NODE_ENV: "production",
-      },
-      env_development: {
-        NODE_ENV: "development",
       },
     },
   ],
